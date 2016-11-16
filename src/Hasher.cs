@@ -1,3 +1,5 @@
+using System;
+
 namespace System.Numerics
 {
     public struct Hasher<THash, TCombiner> where TCombiner : IHashCombiner<THash>

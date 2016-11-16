@@ -1,3 +1,5 @@
+using System;
+
 namespace System.Numerics
 {
     public struct DefaultHashCombiner : IHashCombiner<int>
