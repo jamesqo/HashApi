@@ -1,4 +1,5 @@
 {
+  "name": "System.Numerics.Hashing",
   "version": "1.0.0-*",
   "buildOptions": {
     "debugType": "portable",
@@ -7,10 +8,7 @@
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {
-        "Microsoft.NETCore.App": {
-          "type": "platform",
-          "version": "1.0.1"
-        }
+        "NETStandard.Library": "1.6.1"
       },
       "imports": "dnxcore50"
     }

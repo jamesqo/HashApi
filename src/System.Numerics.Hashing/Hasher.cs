@@ -20,6 +20,11 @@ namespace System.Numerics
             _combiner = combiner;
         }
 
+        public static implicit operator THash(Hasher<THash, TCombiner> hasher)
+        {
+            return hasher._hash;
+        }
+
         public Hasher<THash, TCombiner> Combine(THash hash)
         {
             var copy = this;
